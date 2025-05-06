@@ -1,0 +1,37 @@
+#controls {
+  display: flex;
+  max-width: 486px;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  background-color: #f6f6fe;
+  border-radius: 8px;
+  margin: 0 auto 16px auto;
+}
+input {
+  margin: 0;
+  width: 150px;
+  text-align: center;
+  outline: 0px solid black;
+}
+button {
+  width: 120px;
+  height: 40px;
+}
+button:last-child {
+  background-color: #ff4e4e;
+}
+button:last-child:hover,
+button:last-child:focus {
+  background-color: #ff7070;
+}
+#boxes {
+  background-color: #f6f6fe;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}

@@ -1,0 +1,14 @@
+.widget {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+p {
+  margin-bottom: 16px;
+}
+button {
+  width: 148px;
+  height: 40px;
+  margin: 0 auto;
+}

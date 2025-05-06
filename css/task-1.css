@@ -1,0 +1,27 @@
+#categories {
+  margin: 0 auto;
+  width: 440px;
+  padding: 24px;
+}
+.item {
+  border-radius: 8px;
+  background: #f6f6fe;
+  padding: 16px;
+}
+.item:not(:last-child) {
+  margin-bottom: 24px;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.33;
+  margin-bottom: 16px;
+}
+.item ul li {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+.item ul li:not(:last-child) {
+  margin-bottom: 8px;
+}
